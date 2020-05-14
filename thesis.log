@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.13)  14 MAY 2020 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.13)  14 MAY 2020 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,48 +658,48 @@ File: logos/edmhsaclay.jpg Graphic file (type jpg)
 <use logos/edmhsaclay.jpg>
 Package pdftex.def Info: logos/edmhsaclay.jpg  used on input line 157.
 (pdftex.def)             Requested size: 227.62204pt x 49.99751pt.
-<logos/upsud.jpg, id=109, 180.675pt x 90.3375pt>
-File: logos/upsud.jpg Graphic file (type jpg)
-<use logos/upsud.jpg>
-Package pdftex.def Info: logos/upsud.jpg  used on input line 171.
-(pdftex.def)             Requested size: 85.35826pt x 42.67917pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 229.
+<logos/ueve.jpg, id=109, 224.84pt x 225.84375pt>
+File: logos/ueve.jpg Graphic file (type jpg)
+<use logos/ueve.jpg>
+Package pdftex.def Info: logos/ueve.jpg  used on input line 171.
+(pdftex.def)             Requested size: 56.9055pt x 57.16034pt.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 226.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 229.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 226.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 229
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 226
 .
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 229
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 226
 .
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 229.
+(Font)              <12> on input line 226.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 229.
+(Font)              <8> on input line 226.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 229.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 229.
+(Font)              <6> on input line 226.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 226.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 229.
+LaTeX Font Info:    Try loading font information for U+msa on input line 226.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 229.
+LaTeX Font Info:    Try loading font information for U+msb on input line 226.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -711,22 +711,17 @@ Package microtype Info: Character `029' is missing
 <logos/fmjh.jpg, id=110, 160.6pt x 101.37875pt>
 File: logos/fmjh.jpg Graphic file (type jpg)
 <use logos/fmjh.jpg>
-Package pdftex.def Info: logos/fmjh.jpg  used on input line 260.
+Package pdftex.def Info: logos/fmjh.jpg  used on input line 257.
 (pdftex.def)             Requested size: 62.59596pt x 39.51279pt.
-<logos/ihes.jpg, id=111, 883.3pt x 779.91376pt>
-File: logos/ihes.jpg Graphic file (type jpg)
-<use logos/ihes.jpg>
-Package pdftex.def Info: logos/ihes.jpg  used on input line 265.
-(pdftex.def)             Requested size: 56.9055pt x 50.24394pt.
-<logos/lag.jpg, id=112, 156.585pt x 113.42375pt>
-File: logos/lag.jpg Graphic file (type jpg)
-<use logos/lag.jpg>
-Package pdftex.def Info: logos/lag.jpg  used on input line 270.
-(pdftex.def)             Requested size: 56.9055pt x 41.22018pt.
-<logos/saclay.jpg, id=113, 162.6075pt x 223.83624pt>
+<logos/lamme.jpg, id=111, 185.493pt x 228.052pt>
+File: logos/lamme.jpg Graphic file (type jpg)
+<use logos/lamme.jpg>
+Package pdftex.def Info: logos/lamme.jpg  used on input line 265.
+(pdftex.def)             Requested size: 42.67912pt x 52.46825pt.
+<logos/saclay.jpg, id=112, 162.6075pt x 223.83624pt>
 File: logos/saclay.jpg Graphic file (type jpg)
 <use logos/saclay.jpg>
-Package pdftex.def Info: logos/saclay.jpg  used on input line 275.
+Package pdftex.def Info: logos/saclay.jpg  used on input line 270.
 (pdftex.def)             Requested size: 28.45274pt x 39.16508pt.
 [1
 Non-PDF special ignored!
@@ -735,8 +730,8 @@ Non-PDF special ignored!
 <special> rawpostscript % Reed College LaTeX Thesis Class 2001/12/04 SN
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logos
-/edmhsaclay.jpg> <./logos/upsud.jpg> <./logos/fmjh.jpg> <./logos/ihes.jpg> <./l
-ogos/lag.jpg> <./logos/saclay.jpg>] [2
+/edmhsaclay.jpg> <./logos/ueve.jpg> <./logos/fmjh.jpg> <./logos/lamme.jpg> <./l
+ogos/saclay.jpg>] [2
 
 ] [1
 
@@ -774,30 +769,30 @@ ogos/lag.jpg> <./logos/saclay.jpg>] [2
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.329 ...ter{R Markdown Basics}\label{rmd-basics}}
+l.326 ...ter{R Markdown Basics}\label{rmd-basics}}
                                                    [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.329 ...ter{R Markdown Basics}\label{rmd-basics}}
+l.326 ...ter{R Markdown Basics}\label{rmd-basics}}
                                                    [2
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 331.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 328.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 342.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 339.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [3]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 395.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 392.
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
 Make it at least 14.49998pt.
@@ -805,14 +800,14 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [4]
-<thesis_files/figure-latex/pressure-1.pdf, id=277, 434.62375pt x 250.9375pt>
+<thesis_files/figure-latex/pressure-1.pdf, id=276, 434.62375pt x 250.9375pt>
 File: thesis_files/figure-latex/pressure-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/pressure-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/pressure-1.pdf  used on inpu
-t line 431.
+t line 428.
 (pdftex.def)             Requested size: 434.62268pt x 250.93687pt.
 [5 <./thesis_files/figure-latex/pressure-1.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 484
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 481
 .
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -822,20 +817,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [7
 
 ]
-<thesis_files/figure-latex/march3plot-1.pdf, id=305, 423.5825pt x 206.7725pt>
+<thesis_files/figure-latex/march3plot-1.pdf, id=304, 423.5825pt x 206.7725pt>
 File: thesis_files/figure-latex/march3plot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/march3plot-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/march3plot-1.pdf  used on in
-put line 566.
+put line 563.
 (pdftex.def)             Requested size: 423.58147pt x 206.77199pt.
 
-Underfull \hbox (badness 2027) in paragraph at lines 572--574
+Underfull \hbox (badness 2027) in paragraph at lines 569--571
 []\T1/lmr/m/it/12 (+20) Markdown \T1/lmr/m/n/12 (+20) Cheat-sheet - []$\T1/lmtt
 /m/n/12 https : / / github . com / adam -[] p / markdown -[] here / wiki /
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 576--578
+Underfull \hbox (badness 3291) in paragraph at lines 573--575
 []\T1/lmr/m/n/12 (+20) Introduction to \T1/lmtt/m/n/12 dplyr \T1/lmr/m/n/12 (+2
 0) - []$\T1/lmtt/m/n/12 https : / / cran . rstudio . com / web / packages / dpl
 yr /
@@ -850,38 +845,38 @@ Chapter 3.
 [11
 
 ]
-<figure/reed.jpg, id=366, 250.9375pt x 251.94125pt>
+<figure/reed.jpg, id=365, 250.9375pt x 251.94125pt>
 File: figure/reed.jpg Graphic file (type jpg)
 <use figure/reed.jpg>
-Package pdftex.def Info: figure/reed.jpg  used on input line 722.
+Package pdftex.def Info: figure/reed.jpg  used on input line 719.
 (pdftex.def)             Requested size: 250.77698pt x 251.79454pt.
 [12
 
  <./figure/reed.jpg>]
-<thesis_files/figure-latex/delaysboxplot-1.pdf, id=374, 423.5825pt x 313.17pt>
+<thesis_files/figure-latex/delaysboxplot-1.pdf, id=373, 423.5825pt x 313.17pt>
 File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/delaysboxplot-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/delaysboxplot-1.pdf  used on
- input line 742.
+ input line 739.
 (pdftex.def)             Requested size: 423.58147pt x 313.16922pt.
 [13
 
  <./thesis_files/figure-latex/delaysboxplot-1.pdf>]
-<figure/subdivision.pdf, id=389, 220.825pt x 89.33376pt>
+<figure/subdivision.pdf, id=388, 220.825pt x 89.33376pt>
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
-Package pdftex.def Info: figure/subdivision.pdf  used on input line 753.
+Package pdftex.def Info: figure/subdivision.pdf  used on input line 750.
 (pdftex.def)             Requested size: 165.61833pt x 67.00014pt.
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
-Package pdftex.def Info: figure/subdivision.pdf  used on input line 761.
+Package pdftex.def Info: figure/subdivision.pdf  used on input line 758.
 (pdftex.def)             Requested size: 220.82445pt x 89.33353pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 768.
+(Font)              <10> on input line 765.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 768.
+(Font)              <7> on input line 765.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 768.
+(Font)              <5> on input line 765.
 [14
 
  <./figure/subdivision.pdf>] [15] [16
@@ -901,38 +896,38 @@ Appendix B.
 ]
 File: logos/edmhsaclay.jpg Graphic file (type jpg)
 <use logos/edmhsaclay.jpg>
-Package pdftex.def Info: logos/edmhsaclay.jpg  used on input line 899.
+Package pdftex.def Info: logos/edmhsaclay.jpg  used on input line 896.
 (pdftex.def)             Requested size: 227.62204pt x 49.99751pt.
 
-Overfull \hbox (21.25375pt too wide) in paragraph at lines 903--916
+Overfull \hbox (21.25375pt too wide) in paragraph at lines 900--913
  [] 
  []
 
 
-Overfull \hbox (21.25375pt too wide) in paragraph at lines 918--931
+Overfull \hbox (21.25375pt too wide) in paragraph at lines 915--928
  [] 
  []
 
 File: logos/saclay.jpg Graphic file (type jpg)
 <use logos/saclay.jpg>
-Package pdftex.def Info: logos/saclay.jpg  used on input line 934.
+Package pdftex.def Info: logos/saclay.jpg  used on input line 931.
 (pdftex.def)             Requested size: 28.45274pt x 39.16508pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 935.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 932.
 [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 935.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 932.
 (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 935.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 935.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 932.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 932.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 57FBF3D248E386DA3222569288E2E5B7;1609.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 935.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 932.
  ) 
 Here is how much of TeX's memory you used:
- 11029 strings out of 492616
- 170329 string characters out of 6129481
+ 11022 strings out of 492616
+ 170227 string characters out of 6129481
  290450 words of memory out of 5000000
- 14445 multiletter control sequences out of 15000+600000
- 98609 words of font info for 144 fonts, out of 8000000 for 9000
+ 14441 multiletter control sequences out of 15000+600000
+ 98480 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,49p,831b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -957,10 +952,10 @@ onts/type1/public/lm/lmro12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtti10.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (40 pages, 1460623 bytes).
+Output written on thesis.pdf (40 pages, 737922 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
+ 603 PDF objects out of 1000 (max. 8388607)
  513 compressed objects within 6 object streams
  120 named destinations out of 1000 (max. 500000)
- 20744 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 20739 words of extra memory for PDF output out of 24883 (max. 10000000)
 

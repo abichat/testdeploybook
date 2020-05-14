@@ -259,10 +259,10 @@ This should be a new paragraph.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw">dim</span>(flights)</a></code></pre></div>
 <pre><code>[1] 52808    16</code></pre>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw">names</span>(flights)</a></code></pre></div>
-<pre><code> [1] &quot;month&quot;        &quot;day&quot;          &quot;dep_time&quot;     &quot;dep_delay&quot;   
- [5] &quot;arr_time&quot;     &quot;arr_delay&quot;    &quot;carrier&quot;      &quot;tailnum&quot;     
- [9] &quot;flight&quot;       &quot;dest&quot;         &quot;air_time&quot;     &quot;distance&quot;    
-[13] &quot;hour&quot;         &quot;minute&quot;       &quot;carrier_name&quot; &quot;dest_name&quot;   </code></pre>
+<pre><code> [1] &quot;month&quot;        &quot;day&quot;          &quot;dep_time&quot;     &quot;dep_delay&quot;    &quot;arr_time&quot;    
+ [6] &quot;arr_delay&quot;    &quot;carrier&quot;      &quot;tailnum&quot;      &quot;flight&quot;       &quot;dest&quot;        
+[11] &quot;air_time&quot;     &quot;distance&quot;     &quot;hour&quot;         &quot;minute&quot;       &quot;carrier_name&quot;
+[16] &quot;dest_name&quot;   </code></pre>
 <p>Another good idea is to take a look at the dataset in table form. With this dataset having more than 50,000 rows, we won’t explicitly show the results of the command here. I recommend you enter the command into the Console <strong><em>after</em></strong> you have run the <strong>R</strong> chunks above to load the data into <strong>R</strong>.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw">View</span>(flights)</a></code></pre></div>
 <p>While not required, it is highly recommended you use the <code>dplyr</code> package to manipulate and summarize your data set as needed. It uses a syntax that is easy to understand using chaining operations. Below I’ve created a few examples of using <code>dplyr</code> to get information about the Portland flights in 2014. You will also see the use of the <code>ggplot2</code> package, which produces beautiful, high-quality academic visuals.</p>

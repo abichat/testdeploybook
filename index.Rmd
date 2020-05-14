@@ -13,9 +13,9 @@ output:
 #### Page de garde EDMH ####
 ############################
 auteur: "Antoine BICHAT"
-date: "Jour Mois Année"
-titre: "Titre de la thèse"
-title: "Title in english"
+date: "14 mai"
+titre: "Test de déploiement"
+title: "Deployment test"
 ##
 #### Numéro national de thèse ####
 ##
@@ -23,8 +23,8 @@ NNT: "2020SACLY000"
 ##
 #### Spécialité ####
 ##
-specialite: Mathématiques fondamentales
-# specialite: Mathématiques appliquées
+# specialite: Mathématiques fondamentales
+specialite: Mathématiques appliquées
 # specialite: Mathématiques aux interfaces
 ##
 #### Établissement de regroupement et logos ####
@@ -68,12 +68,12 @@ taille_logo_regroupement: "1cm"
 # inscripteur: Télécom SudParis
 # logo_inscripteur: "logos/telecomsudparis.jpg"
 # taille_logo_inscripteur: "2cm"
-# inscripteur: "Université d'Évry-Val d'Essonne"
-# logo_inscripteur: "logos/ueve.jpg"
-# taille_logo_inscripteur: "2cm"
-inscripteur: Université Paris-Sud
-logo_inscripteur: "logos/upsud.jpg"
-taille_logo_inscripteur: "3cm"
+inscripteur: "Université d'Évry-Val d'Essonne"
+logo_inscripteur: "logos/ueve.jpg"
+taille_logo_inscripteur: "2cm"
+# inscripteur: Université Paris-Sud
+# logo_inscripteur: "logos/upsud.jpg"
+# taille_logo_inscripteur: "3cm"
 # inscripteur: Université de Versailles Saint-Quentin-en-Yvelines
 # logo_inscripteur: "logos/uvsq.jpg"
 # taille_logo_inscripteur: "3cm"
@@ -86,9 +86,9 @@ taille_logo_inscripteur: "3cm"
 # accueil: "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
 # logo_accueil: "logos/cea.jpg"
 # taille_logo_accueil: "1.8cm"
-accueil: "Institut des Hautes Études Scientifiques"
-logo_accueil: "logos/ihes.jpg"
-taille_logo_accueil: "2cm"
+# accueil: "Institut des Hautes Études Scientifiques"
+# logo_accueil: "logos/ihes.jpg"
+# taille_logo_accueil: "2cm"
 # accueil: "Institut National de la Recherche Agronomique"
 # logo_accueil: "logos/inra.jpg"
 # taille_logo_accueil: "3cm"
@@ -119,12 +119,12 @@ taille_logo_accueil: "2cm"
 # labo: "Institut de Physique Théorique de Saclay, URA 2306 CNRS"
 # logo_labo: "logos/ipht.jpg"
 # taille_logo_labo: "2cm"
-labo: "Laboratoire Alexander Grothendieck (ERL 9216 CNRS)"
-logo_labo: "logos/lag.jpg"
-taille_logo_labo: "2cm"
-# labo: "Laboratoire de Mathématiques et Modélisation d'Évry, UMR 8071 CNRS-INRA"
-# logo_labo: "logos/lamme.jpg"
-# taille_logo_labo: "1.5cm"
+# labo: "Laboratoire Alexander Grothendieck (ERL 9216 CNRS)"
+# logo_labo: "logos/lag.jpg"
+# taille_logo_labo: "2cm"
+labo: "Laboratoire de Mathématiques et Modélisation d'Évry, UMR 8071 CNRS-INRA"
+logo_labo: "logos/lamme.jpg"
+taille_logo_labo: "1.5cm"
 # labo: "Laboratoire de Mathématiques d'Orsay, UMR 8628 CNRS"
 # logo_labo: "logos/lmo.jpg"
 # taille_logo_labo: "2cm"
@@ -186,7 +186,7 @@ keywords: "3 to 6 key words"
 ##
 #### Résumé ####
 ##
-resume: "Réumé en français"
+resume: "Résumé en français"
 abstract_bc: "Abstract in english"
 ################
 #### Autres ####
@@ -252,6 +252,8 @@ on chapters.
 -->
 
 # Introduction {.unnumbered}
+
+This is a test for _Bookdown_ deployment with GitHub Actions.
 
 Welcome to the _R Markdown_ thesis template. This template is based on (and in many places copied directly from) the Reed College LaTeX template, but hopefully it will provide a nicer interface for those that have never used TeX or LaTeX before.  Using _R Markdown_ will also allow you to easily keep track of your analyses in **R** chunks of code, with the resulting plots and output included as well.  The hope is this _R Markdown_ template gets you in the habit of doing reproducible research, which benefits you long-term as a researcher, but also will greatly help anyone that is trying to reproduce or build onto your results down the road.
 
