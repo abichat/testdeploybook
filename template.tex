@@ -1,0 +1,362 @@
+% This is the Reed College LaTeX thesis template. Most of the work
+% for the document class was done by Sam Noble (SN), as well as this
+% template. Later comments etc. by Ben Salzberg (BTS). Additional
+% restructuring and APA support by Jess Youngberg (JY).
+% Your comments and suggestions are more than welcome; please email
+% them to cus@reed.edu
+%
+% See http://web.reed.edu/cis/help/latex.html for help. There are a
+% great bunch of help pages there, with notes on
+% getting started, bibtex, etc. Go there and read it if you're not
+% already familiar with LaTeX.
+%
+% Any line that starts with a percent symbol is a comment.
+% They won't show up in the document, and are useful for notes
+% to yourself and explaining commands.
+% Commenting also removes a line from the document;
+% very handy for troubleshooting problems. -BTS
+
+% As far as I know, this follows the requirements laid out in
+% the 2002-2003 Senior Handbook. Ask a librarian to check the
+% document before binding. -SN
+
+%%
+%% Preamble
+%%
+% \documentclass{<something>} must begin each LaTeX document
+\documentclass[a4paper,12pt]{reedthesis}
+% Packages are extensions to the basic LaTeX functions. Whatever you
+% want to typeset, there is probably a package out there for it.
+% Chemistry (chemtex), screenplays, you name it.
+% Check out CTAN to see: http://www.ctan.org/
+%%
+\usepackage{graphicx,latexsym}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{fullpage}
+\usepackage{longtable,booktabs,setspace}
+\usepackage{chemarr} %% Useful for one reaction arrow, useless if you're not a chem major
+\usepackage[hyphens]{url}
+% Added by CII
+\usepackage{hyperref}
+\usepackage{lmodern}
+\usepackage{float}
+\floatplacement{figure}{H}
+% End of CII addition
+\usepackage{rotating}
+
+% Next line commented out by CII
+%%% \usepackage{natbib}
+% Comment out the natbib line above and uncomment the following two lines to use the new
+% biblatex-chicago style, for Chicago A. Also make some changes at the end where the
+% bibliography is included.
+%\usepackage{biblatex-chicago}
+%\bibliography{thesis}
+
+
+% Added by CII (Thanks, Hadley!)
+% Use ref for internal links
+\renewcommand{\hyperref}[2][???]{\autoref{#1}}
+\def\chapterautorefname{Chapter}
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Subsection}
+% End of CII addition
+
+% Added by CII
+\usepackage{caption}
+\captionsetup{width=5in}
+% End of CII addition
+
+% \usepackage{times} % other fonts are available like times, bookman, charter, palatino
+
+% Syntax highlighting #22
+$if(highlighting-macros)$
+  $highlighting-macros$
+$endif$
+
+
+% Added by CII
+%%% Copied from knitr
+%% maxwidth is the original width if it's less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\renewcommand{\contentsname}{Table of Contents}
+% End of CII addition
+
+\setlength{\parskip}{0pt}
+
+% Added by CII
+$if(space_between_paragraphs)$
+  %\setlength{\parskip}{\baselineskip}
+  \usepackage[parfill]{parskip}
+$endif$
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+$for(header-includes)$
+	$header-includes$
+$endfor$
+% End of CII addition
+%%
+%% End Preamble
+%%
+%
+
+\begin{document}
+
+\thispagestyle{empty}
+\vspace{-2cm}
+
+\voffset-10pt
+
+
+%%%
+%% premiere ligne avec logo légaux et numéro national de thèse
+%% (modifier les symboles % en début de lignes
+%%  pour obtenir la configuration souhaitée)
+%%%
+\noindent
+\hspace*{-1cm}\hbox{\includegraphics[width=$taille_logo_regroupement_edmh$]{$logo_regroupement_edmh$}}
+%%%
+%% Numéro National de Thèse, à préciser lors du second dépôt
+%% de la thèse post-soutenance
+%%%
+\hfill
+\hspace*{-0.4cm}{\small {\bf NNT~: $NNT$}}
+%%%
+%% logo établissement inscripteur
+%% En cas de cotutelle internationale,
+%% mettre à la place le logo de l'université étrangère et rajouter
+%% en bas de page le logo de l'établissement inscripteur
+%%%
+\hfill
+\hbox{\includegraphics[width=$taille_logo_inscripteur$]{$logo_inscripteur$}}
+\vspace{7mm}
+
+\begin{center}
+{\Large\bf THÈSE DE DOCTORAT}
+\end{center}
+\begin{center}
+{de }
+\end{center}
+\begin{center}
+ {\Large\sc l'$regroupement$}\\
+  \vspace*{0.4cm}
+École doctorale de mathématiques Hadamard (EDMH, ED 574)\\
+ \vspace*{0.4cm}
+%%%
+%% nom établissement inscripteur
+%%%
+{\small \it Établissement d'inscription~:} $inscripteur$
+
+ \vspace*{0.2cm}
+%%%
+%% nom établissement(s) d'accueil, si différent du précédent
+%%%
+$if(accueil)$
+{\small \it Établissement d'accueil~:} $accueil$
+
+\vspace*{0.2cm}
+$endif$
+%%%
+%% nom laboratoire(s) d'accueil
+%%%
+{\small \it Laboratoire d'accueil~:} $labo$
+
+\vspace*{0.2cm}
+\end{center}
+
+
+\begin{center}
+%%%
+%%  Spécialité
+%%%
+{\it Spécialité de doctorat~:} {\large $specialite$}
+\end{center}
+
+\vspace{5mm}
+
+\begin{center}
+{\large\bf $auteur$}
+\end{center}
+
+\vspace{3mm}
+
+\begin{center}
+{\Large $titre$}
+%%%
+%% éventuellement sur deux lignes
+%%%
+\end{center}
+
+
+\vspace{10mm}
+
+\noindent{\small \it Date de soutenance~:} $date$
+
+\vspace{5mm}
+
+\noindent
+{\small \it Après avis des rapporteurs~:}
+\begin{tabular}{l}
+{\sc $rapporteur1$} ($institution_rapporteur1$)\vspace{1mm}  \\
+{\sc $rapporteur2$} ($institution_rapporteur2$)\\
+\end{tabular}
+
+\vspace{8mm}
+
+\noindent
+{\small \it Jury de soutenance~:}
+%%%
+%% par ordre alphabétique des membres
+%%
+%% version avant soutenance à adapter (un jury peut contenir
+%% tout ou partie des rapporteurs, tout au partie des codirecteurs de thèses,
+%% voire des invités). Le président du jury est choisi par le jury en
+%% son sein le jour de la soutenance, et est indiqué sur les exemplaires
+%% post-soutenance
+%% En cas d'absense d'un membre de jury prévu, les exemplaires post-thèse
+%% ne doivent faire figurer que les présents.
+%%%%
+\begin{tabular}{ll}
+{\sc   $jure_1$}&($institution_jure_1$) {\small $role_jure_1$}\vspace{1mm}\\
+{\sc   $jure_2$}&($institution_jure_2$) {\small $role_jure_2$}\vspace{1mm}\\
+{\sc   $jure_3$}&($institution_jure_3$) {\small $role_jure_3$}\vspace{1mm}\\
+{\sc   $jure_4$}&($institution_jure_4$) {\small $role_jure_4$}\vspace{1mm}\\
+{\sc   $jure_5$}&($institution_jure_5$) {\small $role_jure_5$}\vspace{1mm}\\
+{\sc   $jure_6$}&($institution_jure_6$) {\small $role_jure_6$}\vspace{1mm}\\
+\end{tabular}
+
+
+\vfill
+\noindent
+\hfill
+\hbox{\includegraphics[width=2.2cm]{logos/fmjh.jpg}}
+%%%
+%% logo établissement d'accueil, si différent du précédent, s'il existe
+%%%
+$if(logo_accueil)$
+\hfill\hfill\hfill\hfill
+\hbox{\includegraphics[width=$taille_logo_accueil$]{$logo_accueil$}}
+$endif$
+%%%
+%% logo laboratoire d'accueil, s'il existe
+%%%
+$if(logo_labo)$
+\hfill\hfill\hfill\hfill
+\hbox{\includegraphics[width=$taille_logo_labo$]{$logo_labo$}}
+$endif$
+%%%
+%% logo établissement de regroupement, s'il existe
+%%%
+$if(logo_regroupement)$
+\hfill\hfill\hfill\hfill
+\includegraphics[width=$taille_logo_regroupement$]{$logo_regroupement$}
+$endif$
+\hfill
+\
+
+
+\frontmatter % this stuff will be roman-numbered
+\pagestyle{empty} % this removes page numbers from the frontmatter
+
+$if(acknowledgements)$
+  \begin{acknowledgements}
+    $acknowledgements$
+  \end{acknowledgements}
+$endif$
+
+$if(preface)$
+  \begin{preface}
+    $preface$
+  \end{preface}
+$endif$
+
+$if(toc)$
+  \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
+  \setcounter{tocdepth}{$toc-depth$}
+  \tableofcontents
+$endif$
+
+$if(lot)$
+  \listoftables
+$endif$
+
+$if(lof)$
+  \listoffigures
+$endif$
+
+$if(abstract)$
+  \begin{abstract}
+    $abstract$
+  \end{abstract}
+$endif$
+
+$if(dedication)$
+  \begin{dedication}
+    $dedication$
+  \end{dedication}
+$endif$
+
+\mainmatter % here the regular arabic numbering starts
+\pagestyle{fancyplain} % turns page numbering back on
+
+$body$
+
+%%%
+%%
+%% Quatrième de couverture (last cover page of the memoirs)
+%%
+%%%
+
+\newpage
+\pagestyle{empty}
+\hbox{\includegraphics[width=$taille_logo_regroupement_edmh$]{$logo_regroupement_edmh$}}
+
+
+\bigskip
+\noindent\fbox{\parbox{\textwidth}{
+{\bf Titre :} $titre$
+
+\medskip
+{\bf Mots Clefs :} $motsclefs$
+
+\medskip
+{\bf Résumé :} $resume$
+
+
+\vspace{6cm}
+
+}}
+
+\bigskip
+\noindent\fbox{\parbox{\textwidth}{
+{\bf Title:} $title$
+
+\medskip
+{\bf Keys words:} $keywords$
+
+\medskip
+{\bf Abstract:} $abstract_bc$
+
+
+\vspace{6cm}
+
+}}
+
+\vfill
+$if(logo_regroupement)$
+\hfill
+\includegraphics[width=$taille_logo_regroupement$]{$logo_regroupement$}
+$endif$
+\end{document}
+
