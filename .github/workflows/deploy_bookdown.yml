@@ -27,7 +27,7 @@ jobs:
         run: Rscript -e 'remotes::install_github("ismayc/thesisdown", Ncpus = 4)'
 
       - name: Render Book
-        run: Rscript -e 'bookdown::render_book("index.Rmd")'
+        run: Rscript -e 'bookdown::render_book("index.Rmd", c("thesisdown::thesis_gitbook", "thesisdown::thesis_pdf"))'
 
       - uses: actions/upload-artifact@v1
         with:
