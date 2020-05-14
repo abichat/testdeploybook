@@ -7,9 +7,9 @@ name: deploy
 
 jobs:
 
-  if: "!contains(github.event.head_commit.message, 'skip deploy')"
-
   bookdown:
+
+    if: "!contains(github.event.head_commit.message, 'skip deploy')"
 
     name: Render-Book
     runs-on: macOS-latest
@@ -45,10 +45,12 @@ jobs:
 # gh-action from Cecilapp/GitHub-Pages-deploy
   checkout-and-deploy:
 
-   runs-on: ubuntu-latest
-   needs: bookdown
+    if: "!contains(github.event.head_commit.message, 'skip deploy')"
 
-   steps:
+    runs-on: ubuntu-latest
+    needs: bookdown
+
+    steps:
 
      - name: Checkout
        uses: actions/checkout@master
