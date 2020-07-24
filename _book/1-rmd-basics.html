@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 R Markdown Basics | thesis.utf8</title>
-  <meta name="description" content="" />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <title>Chapter 1 R Markdown Basics | Deployment test</title>
+  <meta name="description" content="Chapter 1 R Markdown Basics | Deployment test" />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 R Markdown Basics | thesis.utf8" />
+  <meta property="og:title" content="Chapter 1 R Markdown Basics | Deployment test" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 R Markdown Basics | thesis.utf8" />
+  <meta name="twitter:title" content="Chapter 1 R Markdown Basics | Deployment test" />
   
   
   
@@ -169,7 +169,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Deployment test</a>
           </h1>
         </div>
 
@@ -289,7 +289,7 @@ This should be a new paragraph.</p>
 <a class="sourceLine" id="cb10-3" data-line-number="3">max_delays &lt;-<span class="st"> </span>flights2 <span class="op">%&gt;%</span><span class="st"> </span></a>
 <a class="sourceLine" id="cb10-4" data-line-number="4"><span class="st">  </span><span class="kw">group_by</span>(carrier_name) <span class="op">%&gt;%</span></a>
 <a class="sourceLine" id="cb10-5" data-line-number="5"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">max_arr_delay =</span> <span class="kw">max</span>(arr_delay, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))</a></code></pre></div>
-<pre><code>`summarise()` ungrouping (override with `.groups` argument)</code></pre>
+<pre><code>`summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <p>A useful function in the <code>knitr</code> package for making nice tables in <em>R Markdown</em> is called <code>kable</code>. It is much easier to use than manually entering values into a table by copying and pasting values into Excel or LaTeX. This again goes to show how nice reproducible documents can be! (Note the use of <code>results=&quot;asis&quot;</code>, which will produce the table instead of the code to create the table.) The <code>caption.short</code> argument is used to include a shorter title to appear in the List of Tables.</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="kw">kable</span>(max_delays, </a>
 <a class="sourceLine" id="cb12-2" data-line-number="2">      <span class="dt">col.names =</span> <span class="kw">c</span>(<span class="st">&quot;Airline&quot;</span>, <span class="st">&quot;Max Arrival Delay&quot;</span>),</a>
