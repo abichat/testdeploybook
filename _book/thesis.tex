@@ -474,7 +474,7 @@ We begin by checking to ensure that needed packages are installed and then we lo
 \begin{Shaded}
 \begin{Highlighting}[]
 \CommentTok{# List of packages required for this analysis}
-\NormalTok{pkg <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"knitr"}\NormalTok{, }\StringTok{"bookdown"}\NormalTok{, }\StringTok{"devtools"}\NormalTok{)}
+\NormalTok{pkg <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"knitr"}\NormalTok{, }\StringTok{"bookdown"}\NormalTok{)}
 \CommentTok{# Check if packages are not installed and assign the}
 \CommentTok{# names of the packages not installed to the variable new.pkg}
 \NormalTok{new.pkg <-}\StringTok{ }\NormalTok{pkg[}\OperatorTok{!}\NormalTok{(pkg }\OperatorTok{%in%}\StringTok{ }\KeywordTok{installed.packages}\NormalTok{())]}
@@ -482,8 +482,11 @@ We begin by checking to ensure that needed packages are installed and then we lo
 \CommentTok{# install them}
 \ControlFlowTok{if}\NormalTok{ (}\KeywordTok{length}\NormalTok{(new.pkg))}
   \KeywordTok{install.packages}\NormalTok{(new.pkg, }\DataTypeTok{repos =} \StringTok{"http://cran.rstudio.com"}\NormalTok{)}
-\CommentTok{# Load packages (thesisdown will load all of the packages as well)}
+\CommentTok{# Load packages }
 \KeywordTok{library}\NormalTok{(thesisdown)}
+\KeywordTok{library}\NormalTok{(dplyr)}
+\KeywordTok{library}\NormalTok{(ggplot2)}
+\KeywordTok{library}\NormalTok{(knitr)}
 \end{Highlighting}
 \end{Shaded}
 \clearpage

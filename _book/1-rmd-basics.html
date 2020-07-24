@@ -268,7 +268,7 @@ This should be a new paragraph.</p>
 <p>While not required, it is highly recommended you use the <code>dplyr</code> package to manipulate and summarize your data set as needed. It uses a syntax that is easy to understand using chaining operations. Below I’ve created a few examples of using <code>dplyr</code> to get information about the Portland flights in 2014. You will also see the use of the <code>ggplot2</code> package, which produces beautiful, high-quality academic visuals.</p>
 <p>We begin by checking to ensure that needed packages are installed and then we load them into our current working environment:</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="co"># List of packages required for this analysis</span></a>
-<a class="sourceLine" id="cb9-2" data-line-number="2">pkg &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;knitr&quot;</span>, <span class="st">&quot;bookdown&quot;</span>, <span class="st">&quot;devtools&quot;</span>)</a>
+<a class="sourceLine" id="cb9-2" data-line-number="2">pkg &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;knitr&quot;</span>, <span class="st">&quot;bookdown&quot;</span>)</a>
 <a class="sourceLine" id="cb9-3" data-line-number="3"><span class="co"># Check if packages are not installed and assign the</span></a>
 <a class="sourceLine" id="cb9-4" data-line-number="4"><span class="co"># names of the packages not installed to the variable new.pkg</span></a>
 <a class="sourceLine" id="cb9-5" data-line-number="5">new.pkg &lt;-<span class="st"> </span>pkg[<span class="op">!</span>(pkg <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>())]</a>
@@ -276,8 +276,11 @@ This should be a new paragraph.</p>
 <a class="sourceLine" id="cb9-7" data-line-number="7"><span class="co"># install them</span></a>
 <a class="sourceLine" id="cb9-8" data-line-number="8"><span class="cf">if</span> (<span class="kw">length</span>(new.pkg))</a>
 <a class="sourceLine" id="cb9-9" data-line-number="9">  <span class="kw">install.packages</span>(new.pkg, <span class="dt">repos =</span> <span class="st">&quot;http://cran.rstudio.com&quot;</span>)</a>
-<a class="sourceLine" id="cb9-10" data-line-number="10"><span class="co"># Load packages (thesisdown will load all of the packages as well)</span></a>
-<a class="sourceLine" id="cb9-11" data-line-number="11"><span class="kw">library</span>(thesisdown)</a></code></pre></div>
+<a class="sourceLine" id="cb9-10" data-line-number="10"><span class="co"># Load packages </span></a>
+<a class="sourceLine" id="cb9-11" data-line-number="11"><span class="kw">library</span>(thesisdown)</a>
+<a class="sourceLine" id="cb9-12" data-line-number="12"><span class="kw">library</span>(dplyr)</a>
+<a class="sourceLine" id="cb9-13" data-line-number="13"><span class="kw">library</span>(ggplot2)</a>
+<a class="sourceLine" id="cb9-14" data-line-number="14"><span class="kw">library</span>(knitr)</a></code></pre></div>
 
 <p>The example we show here does the following:</p>
 <ul>

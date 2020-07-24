@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.13)  24 JUL 2020 10:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.13)  24 JUL 2020 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,16 +821,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: thesis_files/figure-latex/march3plot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/march3plot-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/march3plot-1.pdf  used on in
-put line 563.
+put line 566.
 (pdftex.def)             Requested size: 423.58147pt x 206.77199pt.
 
-Underfull \hbox (badness 2027) in paragraph at lines 569--571
+Underfull \hbox (badness 2027) in paragraph at lines 572--574
 []\T1/lmr/m/it/12 (+20) Markdown \T1/lmr/m/n/12 (+20) Cheat-sheet - []$\T1/lmtt
 /m/n/12 https : / / github . com / adam -[] p / markdown -[] here / wiki /
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 573--575
+Underfull \hbox (badness 3291) in paragraph at lines 576--578
 []\T1/lmr/m/n/12 (+20) Introduction to \T1/lmtt/m/n/12 dplyr \T1/lmr/m/n/12 (+2
 0) - []$\T1/lmtt/m/n/12 https : / / cran . rstudio . com / web / packages / dpl
 yr /
@@ -848,7 +848,7 @@ Chapter 3.
 <figure/reed.jpg, id=365, 250.9375pt x 251.94125pt>
 File: figure/reed.jpg Graphic file (type jpg)
 <use figure/reed.jpg>
-Package pdftex.def Info: figure/reed.jpg  used on input line 719.
+Package pdftex.def Info: figure/reed.jpg  used on input line 722.
 (pdftex.def)             Requested size: 250.77698pt x 251.79454pt.
 [12
 
@@ -857,7 +857,7 @@ Package pdftex.def Info: figure/reed.jpg  used on input line 719.
 File: thesis_files/figure-latex/delaysboxplot-1.pdf Graphic file (type pdf)
 <use thesis_files/figure-latex/delaysboxplot-1.pdf>
 Package pdftex.def Info: thesis_files/figure-latex/delaysboxplot-1.pdf  used on
- input line 739.
+ input line 742.
 (pdftex.def)             Requested size: 423.58147pt x 313.16922pt.
 [13
 
@@ -865,18 +865,18 @@ Package pdftex.def Info: thesis_files/figure-latex/delaysboxplot-1.pdf  used on
 <figure/subdivision.pdf, id=388, 220.825pt x 89.33376pt>
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
-Package pdftex.def Info: figure/subdivision.pdf  used on input line 750.
+Package pdftex.def Info: figure/subdivision.pdf  used on input line 753.
 (pdftex.def)             Requested size: 165.61833pt x 67.00014pt.
 File: figure/subdivision.pdf Graphic file (type pdf)
 <use figure/subdivision.pdf>
-Package pdftex.def Info: figure/subdivision.pdf  used on input line 758.
+Package pdftex.def Info: figure/subdivision.pdf  used on input line 761.
 (pdftex.def)             Requested size: 220.82445pt x 89.33353pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 765.
+(Font)              <10> on input line 768.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 765.
+(Font)              <7> on input line 768.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 765.
+(Font)              <5> on input line 768.
 [14
 
  <./figure/subdivision.pdf>] [15] [16
@@ -896,31 +896,31 @@ Appendix B.
 ]
 File: logos/edmhsaclay.jpg Graphic file (type jpg)
 <use logos/edmhsaclay.jpg>
-Package pdftex.def Info: logos/edmhsaclay.jpg  used on input line 896.
+Package pdftex.def Info: logos/edmhsaclay.jpg  used on input line 899.
 (pdftex.def)             Requested size: 227.62204pt x 49.99751pt.
 
-Overfull \hbox (21.25375pt too wide) in paragraph at lines 900--913
+Overfull \hbox (21.25375pt too wide) in paragraph at lines 903--916
  [] 
  []
 
 
-Overfull \hbox (21.25375pt too wide) in paragraph at lines 915--928
+Overfull \hbox (21.25375pt too wide) in paragraph at lines 918--931
  [] 
  []
 
 File: logos/saclay.jpg Graphic file (type jpg)
 <use logos/saclay.jpg>
-Package pdftex.def Info: logos/saclay.jpg  used on input line 931.
+Package pdftex.def Info: logos/saclay.jpg  used on input line 934.
 (pdftex.def)             Requested size: 28.45274pt x 39.16508pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 932.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 935.
 [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 932.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 935.
 (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 932.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 932.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 935.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 935.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 57FBF3D248E386DA3222569288E2E5B7;1609.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 932.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 935.
  ) 
 Here is how much of TeX's memory you used:
  11022 strings out of 492616
@@ -952,7 +952,7 @@ onts/type1/public/lm/lmro12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/lm/lmtti10.pfb></usr/local/texliv
 e/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (40 pages, 737934 bytes).
+Output written on thesis.pdf (40 pages, 737686 bytes).
 PDF statistics:
  603 PDF objects out of 1000 (max. 8388607)
  513 compressed objects within 6 object streams
