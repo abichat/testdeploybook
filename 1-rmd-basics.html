@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 R Markdown Basics | thesis.utf8</title>
-  <meta name="description" content="" />
-  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+  <title>Chapter 1 R Markdown Basics | Deployment test</title>
+  <meta name="description" content="Chapter 1 R Markdown Basics | Deployment test" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 R Markdown Basics | thesis.utf8" />
+  <meta property="og:title" content="Chapter 1 R Markdown Basics | Deployment test" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 R Markdown Basics | thesis.utf8" />
+  <meta name="twitter:title" content="Chapter 1 R Markdown Basics | Deployment test" />
   
   
   
@@ -48,6 +48,7 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
@@ -161,7 +162,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="B" data-path="B-the-second-appendix-for-fun.html"><a href="B-the-second-appendix-for-fun.html"><i class="fa fa-check"></i><b>B</b> The Second Appendix, for Fun</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown target="blank">Published with bookdown</a></li>
 </ul>
 
       </nav>
@@ -171,7 +172,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Deployment test</a>
           </h1>
         </div>
 
@@ -243,7 +244,7 @@ This should be a new paragraph.</p>
 <p>The standard deviation is less than 6.</p>
 </blockquote>
 <p>Note the use of <code>&gt;</code> here, which signifies a quotation environment that will be indented.</p>
-<p>As you see with <code>$2 \pi$</code> above, mathematics can be added by surrounding the mathematical text with dollar signs. More examples of this are in <a href="2-math-sci.html#math-sci">Mathematics and Science</a> if you uncomment the code in <a href="2-math-sci.html#math">Math</a>.</p>
+<p>As you see with <code>$2 \pi$</code> above, mathematics can be added by surrounding the mathematical text with dollar signs. More examples of this are in [Mathematics and Science] if you uncomment the code in [Math].</p>
 </div>
 <div id="including-plots" class="section level2">
 <h2><span class="header-section-number">1.5</span> Including plots</h2>
@@ -270,7 +271,7 @@ This should be a new paragraph.</p>
 <p>While not required, it is highly recommended you use the <code>dplyr</code> package to manipulate and summarize your data set as needed. It uses a syntax that is easy to understand using chaining operations. Below I’ve created a few examples of using <code>dplyr</code> to get information about the Portland flights in 2014. You will also see the use of the <code>ggplot2</code> package, which produces beautiful, high-quality academic visuals.</p>
 <p>We begin by checking to ensure that needed packages are installed and then we load them into our current working environment:</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="1-rmd-basics.html#cb9-1"></a><span class="co"># List of packages required for this analysis</span></span>
-<span id="cb9-2"><a href="1-rmd-basics.html#cb9-2"></a>pkg &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;knitr&quot;</span>, <span class="st">&quot;bookdown&quot;</span>, <span class="st">&quot;devtools&quot;</span>)</span>
+<span id="cb9-2"><a href="1-rmd-basics.html#cb9-2"></a>pkg &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;dplyr&quot;</span>, <span class="st">&quot;ggplot2&quot;</span>, <span class="st">&quot;knitr&quot;</span>, <span class="st">&quot;bookdown&quot;</span>)</span>
 <span id="cb9-3"><a href="1-rmd-basics.html#cb9-3"></a><span class="co"># Check if packages are not installed and assign the</span></span>
 <span id="cb9-4"><a href="1-rmd-basics.html#cb9-4"></a><span class="co"># names of the packages not installed to the variable new.pkg</span></span>
 <span id="cb9-5"><a href="1-rmd-basics.html#cb9-5"></a>new.pkg &lt;-<span class="st"> </span>pkg[<span class="op">!</span>(pkg <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>())]</span>
@@ -278,8 +279,11 @@ This should be a new paragraph.</p>
 <span id="cb9-7"><a href="1-rmd-basics.html#cb9-7"></a><span class="co"># install them</span></span>
 <span id="cb9-8"><a href="1-rmd-basics.html#cb9-8"></a><span class="cf">if</span> (<span class="kw">length</span>(new.pkg))</span>
 <span id="cb9-9"><a href="1-rmd-basics.html#cb9-9"></a>  <span class="kw">install.packages</span>(new.pkg, <span class="dt">repos =</span> <span class="st">&quot;http://cran.rstudio.com&quot;</span>)</span>
-<span id="cb9-10"><a href="1-rmd-basics.html#cb9-10"></a><span class="co"># Load packages (thesisdown will load all of the packages as well)</span></span>
-<span id="cb9-11"><a href="1-rmd-basics.html#cb9-11"></a><span class="kw">library</span>(thesisdown)</span></code></pre></div>
+<span id="cb9-10"><a href="1-rmd-basics.html#cb9-10"></a><span class="co"># Load packages </span></span>
+<span id="cb9-11"><a href="1-rmd-basics.html#cb9-11"></a><span class="kw">library</span>(thesisdown)</span>
+<span id="cb9-12"><a href="1-rmd-basics.html#cb9-12"></a><span class="kw">library</span>(dplyr)</span>
+<span id="cb9-13"><a href="1-rmd-basics.html#cb9-13"></a><span class="kw">library</span>(ggplot2)</span>
+<span id="cb9-14"><a href="1-rmd-basics.html#cb9-14"></a><span class="kw">library</span>(knitr)</span></code></pre></div>
 
 <p>The example we show here does the following:</p>
 <ul>
@@ -291,13 +295,14 @@ This should be a new paragraph.</p>
 <span id="cb10-3"><a href="1-rmd-basics.html#cb10-3"></a>max_delays &lt;-<span class="st"> </span>flights2 <span class="op">%&gt;%</span><span class="st"> </span></span>
 <span id="cb10-4"><a href="1-rmd-basics.html#cb10-4"></a><span class="st">  </span><span class="kw">group_by</span>(carrier_name) <span class="op">%&gt;%</span></span>
 <span id="cb10-5"><a href="1-rmd-basics.html#cb10-5"></a><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">max_arr_delay =</span> <span class="kw">max</span>(arr_delay, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))</span></code></pre></div>
+<pre><code>`summarise()` ungrouping output (override with `.groups` argument)</code></pre>
 <p>A useful function in the <code>knitr</code> package for making nice tables in <em>R Markdown</em> is called <code>kable</code>. It is much easier to use than manually entering values into a table by copying and pasting values into Excel or LaTeX. This again goes to show how nice reproducible documents can be! (Note the use of <code>results="asis"</code>, which will produce the table instead of the code to create the table.) The <code>caption.short</code> argument is used to include a shorter title to appear in the List of Tables.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="1-rmd-basics.html#cb11-1"></a><span class="kw">kable</span>(max_delays, </span>
-<span id="cb11-2"><a href="1-rmd-basics.html#cb11-2"></a>      <span class="dt">col.names =</span> <span class="kw">c</span>(<span class="st">&quot;Airline&quot;</span>, <span class="st">&quot;Max Arrival Delay&quot;</span>),</span>
-<span id="cb11-3"><a href="1-rmd-basics.html#cb11-3"></a>      <span class="dt">caption =</span> <span class="st">&quot;Maximum Delays by Airline&quot;</span>,</span>
-<span id="cb11-4"><a href="1-rmd-basics.html#cb11-4"></a>      <span class="dt">caption.short =</span> <span class="st">&quot;Max Delays by Airline&quot;</span>,</span>
-<span id="cb11-5"><a href="1-rmd-basics.html#cb11-5"></a>      <span class="dt">longtable =</span> <span class="ot">TRUE</span>,</span>
-<span id="cb11-6"><a href="1-rmd-basics.html#cb11-6"></a>      <span class="dt">booktabs =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="1-rmd-basics.html#cb12-1"></a><span class="kw">kable</span>(max_delays, </span>
+<span id="cb12-2"><a href="1-rmd-basics.html#cb12-2"></a>      <span class="dt">col.names =</span> <span class="kw">c</span>(<span class="st">&quot;Airline&quot;</span>, <span class="st">&quot;Max Arrival Delay&quot;</span>),</span>
+<span id="cb12-3"><a href="1-rmd-basics.html#cb12-3"></a>      <span class="dt">caption =</span> <span class="st">&quot;Maximum Delays by Airline&quot;</span>,</span>
+<span id="cb12-4"><a href="1-rmd-basics.html#cb12-4"></a>      <span class="dt">caption.short =</span> <span class="st">&quot;Max Delays by Airline&quot;</span>,</span>
+<span id="cb12-5"><a href="1-rmd-basics.html#cb12-5"></a>      <span class="dt">longtable =</span> <span class="ot">TRUE</span>,</span>
+<span id="cb12-6"><a href="1-rmd-basics.html#cb12-6"></a>      <span class="dt">booktabs =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
 <table>
 <caption><span id="tab:maxdelays">Table 1.1: </span>Maximum Delays by Airline</caption>
 <thead>
@@ -355,15 +360,15 @@ This should be a new paragraph.</p>
 </table>
 <p>The last two options make the table a little easier-to-read.</p>
 <p>We can further look into the properties of the largest value here for American Airlines Inc. To do so, we can isolate the row corresponding to the arrival delay of 1539 minutes for American in our original <code>flights</code> dataset.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="1-rmd-basics.html#cb12-1"></a>flights <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">filter</span>(arr_delay <span class="op">==</span><span class="st"> </span><span class="dv">1539</span>, </span>
-<span id="cb12-2"><a href="1-rmd-basics.html#cb12-2"></a>                  carrier_name <span class="op">==</span><span class="st"> &quot;American Airlines Inc.&quot;</span>) <span class="op">%&gt;%</span></span>
-<span id="cb12-3"><a href="1-rmd-basics.html#cb12-3"></a><span class="st">  </span><span class="kw">select</span>(<span class="op">-</span><span class="kw">c</span>(month, day, carrier, dest_name, hour, </span>
-<span id="cb12-4"><a href="1-rmd-basics.html#cb12-4"></a>            minute, carrier_name, arr_delay))</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="1-rmd-basics.html#cb13-1"></a>flights <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">filter</span>(arr_delay <span class="op">==</span><span class="st"> </span><span class="dv">1539</span>, </span>
+<span id="cb13-2"><a href="1-rmd-basics.html#cb13-2"></a>                  carrier_name <span class="op">==</span><span class="st"> &quot;American Airlines Inc.&quot;</span>) <span class="op">%&gt;%</span></span>
+<span id="cb13-3"><a href="1-rmd-basics.html#cb13-3"></a><span class="st">  </span><span class="kw">select</span>(<span class="op">-</span><span class="kw">c</span>(month, day, carrier, dest_name, hour, </span>
+<span id="cb13-4"><a href="1-rmd-basics.html#cb13-4"></a>            minute, carrier_name, arr_delay))</span></code></pre></div>
 <pre><code>  dep_time dep_delay arr_time tailnum flight dest air_time distance
 1     1403      1553     1934  N595AA   1568  DFW      182     1616</code></pre>
 <p>We see that the flight occurred on March 3rd and departed a little after 2 PM on its way to Dallas/Fort Worth. Lastly, we show how we can visualize the arrival delay of all departing flights from Portland on March 3rd against time of departure.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="1-rmd-basics.html#cb14-1"></a>flights <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">filter</span>(month <span class="op">==</span><span class="st"> </span><span class="dv">3</span>, day <span class="op">==</span><span class="st"> </span><span class="dv">3</span>) <span class="op">%&gt;%</span></span>
-<span id="cb14-2"><a href="1-rmd-basics.html#cb14-2"></a><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> dep_time, <span class="dt">y =</span> arr_delay)) <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="1-rmd-basics.html#cb15-1"></a>flights <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">filter</span>(month <span class="op">==</span><span class="st"> </span><span class="dv">3</span>, day <span class="op">==</span><span class="st"> </span><span class="dv">3</span>) <span class="op">%&gt;%</span></span>
+<span id="cb15-2"><a href="1-rmd-basics.html#cb15-2"></a><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> dep_time, <span class="dt">y =</span> arr_delay)) <span class="op">+</span><span class="st"> </span><span class="kw">geom_point</span>()</span></code></pre></div>
 <p><img src="thesis_files/figure-html/march3plot-1.png" width="576" style="display: block; margin: auto;" /></p>
 </div>
 <div id="additional-resources" class="section level2">

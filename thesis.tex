@@ -418,7 +418,7 @@ The standard deviation is less than 6.
 \end{quote}
 Note the use of \texttt{\textgreater{}} here, which signifies a quotation environment that will be indented.
 
-As you see with \texttt{\$2\ \textbackslash{}pi\$} above, mathematics can be added by surrounding the mathematical text with dollar signs. More examples of this are in \protect\hyperlink{math-sci}{Mathematics and Science} if you uncomment the code in \protect\hyperlink{math}{Math}.
+As you see with \texttt{\$2\ \textbackslash{}pi\$} above, mathematics can be added by surrounding the mathematical text with dollar signs. More examples of this are in {[}Mathematics and Science{]} if you uncomment the code in {[}Math{]}.
 
 \hypertarget{including-plots}{%
 \section{Including plots}\label{including-plots}}
@@ -474,7 +474,7 @@ We begin by checking to ensure that needed packages are installed and then we lo
 \begin{Shaded}
 \begin{Highlighting}[]
 \CommentTok{# List of packages required for this analysis}
-\NormalTok{pkg <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"knitr"}\NormalTok{, }\StringTok{"bookdown"}\NormalTok{, }\StringTok{"devtools"}\NormalTok{)}
+\NormalTok{pkg <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{, }\StringTok{"ggplot2"}\NormalTok{, }\StringTok{"knitr"}\NormalTok{, }\StringTok{"bookdown"}\NormalTok{)}
 \CommentTok{# Check if packages are not installed and assign the}
 \CommentTok{# names of the packages not installed to the variable new.pkg}
 \NormalTok{new.pkg <-}\StringTok{ }\NormalTok{pkg[}\OperatorTok{!}\NormalTok{(pkg }\OperatorTok{%in%}\StringTok{ }\KeywordTok{installed.packages}\NormalTok{())]}
@@ -482,8 +482,11 @@ We begin by checking to ensure that needed packages are installed and then we lo
 \CommentTok{# install them}
 \ControlFlowTok{if}\NormalTok{ (}\KeywordTok{length}\NormalTok{(new.pkg))}
   \KeywordTok{install.packages}\NormalTok{(new.pkg, }\DataTypeTok{repos =} \StringTok{"http://cran.rstudio.com"}\NormalTok{)}
-\CommentTok{# Load packages (thesisdown will load all of the packages as well)}
+\CommentTok{# Load packages }
 \KeywordTok{library}\NormalTok{(thesisdown)}
+\KeywordTok{library}\NormalTok{(dplyr)}
+\KeywordTok{library}\NormalTok{(ggplot2)}
+\KeywordTok{library}\NormalTok{(knitr)}
 \end{Highlighting}
 \end{Shaded}
 \clearpage
@@ -504,6 +507,9 @@ The example we show here does the following:
 \StringTok{  }\KeywordTok{summarize}\NormalTok{(}\DataTypeTok{max_arr_delay =} \KeywordTok{max}\NormalTok{(arr_delay, }\DataTypeTok{na.rm =} \OtherTok{TRUE}\NormalTok{))}
 \end{Highlighting}
 \end{Shaded}
+\begin{verbatim}
+`summarise()` ungrouping output (override with `.groups` argument)
+\end{verbatim}
 A useful function in the \texttt{knitr} package for making nice tables in \emph{R Markdown} is called \texttt{kable}. It is much easier to use than manually entering values into a table by copying and pasting values into Excel or LaTeX. This again goes to show how nice reproducible documents can be! (Note the use of \texttt{results="asis"}, which will produce the table instead of the code to create the table.) The \texttt{caption.short} argument is used to include a shorter title to appear in the List of Tables.
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -637,7 +643,7 @@ You will probably find the resources at \url{http://www.lecb.ncifcrf.gov/~toms/l
 \hypertarget{tables}{%
 \section{Tables}\label{tables}}
 
-In addition to the tables that can be automatically generated from a data frame in \textbf{R} that you saw in \protect\hyperlink{rmd-basics}{R Markdown Basics} using the \texttt{kable} function, you can also create tables using \emph{pandoc}. (More information is available at \url{http://pandoc.org/README.html\#tables}.) This might be useful if you don't have values specifically stored in \textbf{R}, but you'd like to display them in table form. Below is an example. Pay careful attention to the alignment in the table and hyphens to create the rows and columns.
+In addition to the tables that can be automatically generated from a data frame in \textbf{R} that you saw in {[}R Markdown Basics{]} using the \texttt{kable} function, you can also create tables using \emph{pandoc}. (More information is available at \url{http://pandoc.org/README.html\#tables}.) This might be useful if you don't have values specifically stored in \textbf{R}, but you'd like to display them in table form. Below is an example. Pay careful attention to the alignment in the table and hyphens to create the rows and columns.
 \begin{longtable}[]{@{}ccc@{}}
 \caption{\label{tab:inher} Correlation of Inheritance Factors for Parents and Child}\tabularnewline
 \toprule
@@ -697,7 +703,7 @@ Slight\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
-We can also create a link to the table by doing the following: Table \ref{tab:inher}. If you go back to \protect\hyperlink{loading-and-exploring-data}{Loading and exploring data} and look at the \texttt{kable} table, we can create a reference to this max delays table too: Table \ref{tab:maxdelays}. The addition of the \texttt{(\textbackslash{}\#tab:inher)} option to the end of the table caption allows us to then make a reference to Table \texttt{\textbackslash{}@ref(tab:label)}. Note that this reference could appear anywhere throughout the document after the table has appeared.
+We can also create a link to the table by doing the following: Table \ref{tab:inher}. If you go back to {[}Loading and exploring data{]} and look at the \texttt{kable} table, we can create a reference to this max delays table too: Table \ref{tab:maxdelays}. The addition of the \texttt{(\textbackslash{}\#tab:inher)} option to the end of the table caption allows us to then make a reference to Table \texttt{\textbackslash{}@ref(tab:label)}. Note that this reference could appear anywhere throughout the document after the table has appeared.
 
 \clearpage
 
@@ -730,6 +736,9 @@ Below we will investigate how to save the output of an \textbf{R} plot and label
 \StringTok{  }\KeywordTok{geom_bar}\NormalTok{(}\DataTypeTok{position =} \StringTok{"identity"}\NormalTok{, }\DataTypeTok{stat =} \StringTok{"identity"}\NormalTok{, }\DataTypeTok{fill =} \StringTok{"red"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+\begin{verbatim}
+`summarise()` ungrouping output (override with `.groups` argument)
+\end{verbatim}
 \begin{figure}
 \centering
 \includegraphics{thesis_files/figure-latex/delaysboxplot-1.pdf}
